@@ -10,11 +10,11 @@ Run `npm install` and add `.env` file in root path.
 
 ```
 # Run all test files in `specs` dir
-npm test:all
+npm run test:all
 
 # Run single test file
-npm test:only specs/authentication/login.js
+npm run test:only specs/authentication/login.js
 
 # Open report after running all tests
-npm test:report
+npm run test:report
 ```
