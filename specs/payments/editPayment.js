@@ -5,7 +5,7 @@ import { baseUrl } from '../../utils/config';
 import { buildDriver } from '../../utils/browser';
 import { doAuthentication } from '../../supports/login';
 
-describe('payment/addPayment', () => {
+describe('payments/editPayment', () => {
     let driver;
 
     before(async () => {
