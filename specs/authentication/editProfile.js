@@ -26,7 +26,7 @@ describe('authentication/editProfile', () => {
       await driver.findElement(By.css('#user_first_name')).sendKeys(updatedFirstName);
       await driver.findElement(By.css('form .btn-update')).click();
 
-      await driver.get(`${baseUrl}/users_panel/profiles`);
+     await driver.get(`${baseUrl}/users_panel/profiles`);
 
       const profileText = await driver.findElement(By.css('.user-profiles')).getText();
       expect(profileText).to.contain(updatedFirstName);

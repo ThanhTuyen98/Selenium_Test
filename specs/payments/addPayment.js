@@ -60,7 +60,6 @@ describe('payment/addPayment', () => {
             await driver.findElement(By.css('#payment_card_expiry_date')).sendKeys('12');
             await driver.findElement(By.css('#payment_card_expiry_date')).sendKeys('2022');
             await driver.findElement(By.css('#payment_card_cvc')).sendKeys('123');
-            //billing address
             await driver.findElement(By.css('#user_billing_full_name')).sendKeys('testing 1');
             await driver.findElement(By.css('#user_billing_state')).sendKeys('state');
             await driver.findElement(By.css('#user_billing_address')).sendKeys('address');
